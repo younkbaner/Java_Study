@@ -4,13 +4,13 @@ public class Arr{
 	
 		System.out.println("**********************************");
 		int[] arr1;
-		arr1=new int[]{11,22,33,44};   //¾²Ì¬³õÊ¼»¯
-		System.out.println("Arr1µÄ³¤¶ÈÊÇ£º"+arr1.length);
-		System.out.println("µÚ2¸öÔªËØÊÇ£º"+arr1[0]);
-		System.out.println("µÚ2¸öÔªËØÊÇ£º"+arr1[1]);
+		arr1=new int[]{11,22,33,44};   //ï¿½ï¿½Ì¬ï¿½ï¿½Ê¼ï¿½ï¿½
+		System.out.println("Arr1ï¿½Ä³ï¿½ï¿½ï¿½ï¿½Ç£ï¿½"+arr1.length);
+		System.out.println("ï¿½ï¿½2ï¿½ï¿½Ôªï¿½ï¿½ï¿½Ç£ï¿½"+arr1[0]);
+		System.out.println("ï¿½ï¿½2ï¿½ï¿½Ôªï¿½ï¿½ï¿½Ç£ï¿½"+arr1[1]);
 		System.out.println("**********************************");
-		double[] arr2 = new double[5];  //¶¯Ì¬³õÊ¼»¯
-		System.out.println("µÚ2¸öÔªËØÊÇ£º"+arr2[1]);
+		double[] arr2 = new double[5];  //ï¿½ï¿½Ì¬ï¿½ï¿½Ê¼ï¿½ï¿½
+		System.out.println("ï¿½ï¿½2ï¿½ï¿½Ôªï¿½ï¿½ï¿½Ç£ï¿½"+arr2[1]);
 		for(int i=0;i<5;i++)
 		{
 			arr2[i]=99.9;
@@ -22,7 +22,7 @@ public class Arr{
 		System.out.println(Arrays.toString(arr3));
 		System.out.println("**********************************");
 		boolean[] arr4 = new boolean[]{true, true, false, false};
-											//¾²Ì¬³õÊ¼»¯µÄÁíÒ»ÖÖ·½Ê½
+											//ï¿½ï¿½Ì¬ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½Ö·ï¿½Ê½
 		System.out.println(Arrays.toString(arr4));
 		System.out.println("**********************************");
 		char[] arr5=new char[5];
@@ -32,5 +32,11 @@ public class Arr{
 		arr5[3]='d';
 		arr5[4]='e';
 		System.out.println(Arrays.toString(arr5));
+
+
+		@Test
+				public void test01(){
+			System.out.println("ä½ å¥½");
+		}
 	}
 }
