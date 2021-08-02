@@ -20,5 +20,7 @@ public class Person{
 		System.out.println("我是" + name + "，今年" + age + "岁了！");
 	}
 		
-		
+	void show2(){
+		System.out.println("我是" + name + "，今年" + age + "岁了！");
+	}
 }
