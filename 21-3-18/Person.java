@@ -3,20 +3,21 @@ public class Person{
 	
 	String name;
 	int age;
+	int ID;
 	
 	public static void main(String[] args){
 		Person p=new Person();
 		
-		//System.out.println("ÎÒÊÇ"+name+",½ñÄê"+age+"ËêÁË");
+		//System.out.println("æˆ‘æ˜¯"+name+",ä»Šå¹´"+age+"å²äº†");
 		p.show();
-		p.name="ÎÄÖĞ";
+		p.name="æ–‡ä¸­";
 		p.age=23;
-		//System.out.println("ÎÒÊÇ"+name+",½ñÄê"+age+"ËêÁË");
+		//System.out.println("æˆ‘æ˜¯"+name+",ä»Šå¹´"+age+"å²äº†");
 		p.show();
 	}
 	
 	void show(){
-		System.out.println("ÎÒÊÇ" + name + "£¬½ñÄê" + age + "ËêÁË£¡");
+		System.out.println("æˆ‘æ˜¯" + name + "ï¼Œä»Šå¹´" + age + "å²äº†ï¼");
 	}
 		
 		
